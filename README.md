@@ -9,7 +9,7 @@ Creates 2 instances in AWS:
 
 There are 8 variables that need to be passed to terraform to allow it to do its thing:
 
-|Terraform Variables:    | Explain        | Default       |
+|Terraform Variables:    | Explaination        | Default       |
 |------------------------|----------------|---------------| 
 | access_key             | AWS access key |    N/A        |
 | secret_key             | AWS secret     |    N/A        |
@@ -33,7 +33,7 @@ Steps:
  * Hit server endpoint in browser `http://ec2-00-00-000-00.compute-1.amazonaws.com/` and click login.
  * In the top right hand menu click `account` and activate project that you wish to build.
  * Upload appropriate `.drone.yml` file to the root of the project.  
- * Trigger build via a push and watch build live in drone server.
+ * Trigger build via a push to that repo and watch build live in drone server.
 
 ![alt tag](./screenshot.png)
 
