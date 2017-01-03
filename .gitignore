@@ -1,0 +1,8 @@
+# Compiled files
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+optimisticpanda.pem
+# Module directory
+.terraform/
